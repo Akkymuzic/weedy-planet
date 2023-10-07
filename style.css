@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;;
+    font-family: Georgia, serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #2D4532;
+}
+.container h1{
+    font-size: 50px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #5D9C59;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin: 25px 0;
+    padding-left: 10px;
+}
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    padding-right: 8px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: #ff5ea2;
+}
+#page1{
+    width: 100%;
+    min-height: 100vh;
+}
+#page2{
+    width: 100%;
+    min-height: 100vh;
+}
+.section {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section img {
+    width: 400px;
+    height: 300px;
+}
+.section h1 {
+    font-size: 40px;
+    color: white;
+    margin: 20px 0;
+}
+.section h2 {
+    font-size: 40px;
+    color: white;
+    margin: 20px 0;
+}
+.section p {
+    font-size: 20px;
+    color: white;
+}
+
+button{
+    padding: 6px 30px ;
+    font-size: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #9CA89E;
+    border: none;
+    text-transform: uppercase;
+}
+button:hover{
+    color: #ff5ea2;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #5D9C59;
+}
